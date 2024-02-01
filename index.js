@@ -41,7 +41,7 @@ async function renderPlayers() {
     //Update single if single pup is clicked
     puppyDiv.innerHTML = singlePupp
         ? ""
-        : "<button class='allPlayersButton' onclick='refreshPage()'><center>All Puppy Players</button>" +
+        : "<button class='allPlayersButton' onclick='refreshPage()'><center>All Da Puppy </button>" +
         `<div class="allPuppies">${playerList.join("")}</div></center>`;
 
     //Update single if single pup is clicked 
